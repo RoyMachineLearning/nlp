@@ -4,13 +4,13 @@
 import os
 import pytest
 
-from utils_nlp.pretrained_embeddings.word2vec import (
+from utils_nlp.embeddings.word2vec import (
     load_pretrained_vectors as load_word2vec,
 )
-from utils_nlp.pretrained_embeddings.glove import (
+from utils_nlp.embeddings.glove import (
     load_pretrained_vectors as load_glove,
 )
-from utils_nlp.pretrained_embeddings.fasttext import (
+from utils_nlp.embeddings.fasttext import (
     load_pretrained_vectors as load_fasttext,
 )
 
